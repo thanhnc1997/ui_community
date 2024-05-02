@@ -1,0 +1,173 @@
+:root {
+  --dark_1: #1C1C1E;
+  --dark_2: #272727;
+  --dark_3: #333333;
+  --light_1: #E5E5E5;
+  --light_2: #666666;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.mr-4 {
+	margin-right: 4px;
+}
+
+.mr-8 {
+	margin-right: 8px;
+}
+
+.mr-auto {
+	margin-right: auto;
+}
+
+.mb-4 {
+	margin-bottom: 4px;
+}
+
+.mb-8 {
+	margin-bottom: 8px;
+}
+
+.mb-12 {
+	margin-bottom: 14px;
+}
+
+.mb-14 {
+	margin-bottom: 14px;
+}
+
+.mb-18 {
+	margin-bottom: 18px;
+}
+
+.mb-24 {
+	margin-bottom: 24px;
+}
+
+.mb-28 {
+	margin-bottom: 28px;
+}
+
+.mb-auto {
+	margin-bottom: auto;
+}
+
+.rounded-8 {
+	border-radius: 8px;
+}
+
+.rounded-14 {
+	border-radius: 14px;
+}
+
+.circle {
+	border-radius: 50%;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.align-items-center {
+	align-items: center;
+}
+
+.justify-content-center {
+	justify-content: space-center;
+}
+
+.justify-content-between {
+	justify-content: space-between;
+}
+
+.text-secondary {
+	color: var(--light_2);
+}
+
+.bg-light {
+	background-color: var(--light_1);
+}
+
+.bg-dark {
+	background-color: var(--dark_2);
+}
+
+html,
+body {
+	font-size: 14px;
+	background: var(--dark_1);
+	color: var(--light_1);
+	line-height: 1.4;
+}
+
+.container {
+	max-width: 540px;
+	margin: 0 auto;
+	padding: 16px;
+}
+
+.image {
+	background: var(--dark_3) no-repeat center;
+	background-size: contain;
+	position: relative;
+}
+
+.image.cover {
+	background-size: cover;
+	padding-top: calc(9 / 16 * 100%);
+}
+
+.image.square {
+	padding-top: 100%;
+}
+
+.tag {
+	position: absolute;
+	top: 14px;
+	right: 14px;
+	padding: 12px;
+	background: var(--dark_2);
+	border-radius: 100px;
+}
+
+.item {
+	padding: 16px;
+	border: 1px solid var(--light_2);
+}
+
+.icon {
+	flex: 0 0 44px;
+	width: 44px;
+	height: 44px;
+	position: relative;
+}
+
+.icon.small {
+	flex: 0 0 32px;
+	width: 32px;
+	height: 32px;
+}
+
+.icon .text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.item.score {
+	background: var(--dark_2);
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 24px;
+}
+
+.channel .ava {
+	flex: 0 0 32px;
+	height: 32px;
+	background: var(--light_2) no-repeat center;
+	background-size: cover;
+}
